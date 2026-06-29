@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOHI FARM WEBSITE</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sohi Farm</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                background: #f4f9f4;
+                color: #333;
+            }
+
+            header {
+                background: #2e7d32;
+                color: white;
+                padding: 15px 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .logo {
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            nav a:hover {
+                color: #ffd54f;
+            }
+
+            .search-box {
+                margin-top: 10px;
+            }
+
+            .search-box input {
+                padding: 8px;
+                width: 220px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .search-box button {
+                padding: 8px 12px;
+                border: none;
+                background: #ffd54f;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .hero {
+                text-align: center;
+                padding: 80px 20px;
+                background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+                    url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1400&q=80');
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .hero p {
+                margin-top: 15px;
+                font-size: 20px;
+            }
+
+            section {
+                padding: 60px 40px;
+            }
+
+            h2 {
+                color: #2e7d32;
+                margin-bottom: 20px;
+            }
+
+            .products {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+            }
+
+            .card {
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+
+            .card img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            footer {
+                background: #2e7d32;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .contact p {
+                margin: 10px 0;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo">🌿 Sohi Farm</div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Items</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search items...">
+                <button>Search</button>
+            </div>
+
+        </header>
+
+        <section class="hero" id="home">
+            <h1>Welcome to Sohi Farm</h1>
+            <p>Fresh • Organic • Healthy</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to <strong>Sohi Farm</strong>. We are committed to providing
+                fresh, healthy, and high-quality farm products directly to our customers.
+                Our mission is to grow natural products with care and deliver freshness
+                to every home.
+                Welcome to Sohi Farm, a legacy in citrus excellence that began in 1947.<br> Since our founding, we have
+                been dedicated
+                to cultivating and delivering the finest kinnow oranges from the heart of Pakistan.<br> With over 75
+                years of experience, we
+                are proud to have established ourselves as a trusted name, recognized for quality, taste, and
+                freshness.<br>
+
+                At Sohi Farm, our journey starts in the rich orchards of Sargodha,<br> a region known for its fertile
+                soil and ideal
+                climate for growing world-class citrus fruits.<br> Our kinnows are carefully nurtured and handpicked at
+                the peak of
+                ripeness, ensuring they reach you bursting with flavor and packed with nutrients.<br>
+
+                We understand the importance of freshness and quality, which is why our kinnows are meticulously packed
+                to preserve
+                their natural zest and juiciness.<br> We cater to clients across Pakistan and also serve international
+                markets, bringing a
+                taste of Pakistan’s citrus heritage to the world.,<br> Every pack of Sohi Farm reflects our
+                commitment to quality, from
+                the farm to your table.,<br>
+
+                Thank you for choosing Sohi Farm. <br>We look forward to brightening your day with the vibrant
+                taste of our signature
+                kinnows!
+
+            </p>
+
+        </section>
+
+        <section id="products">
+
+            <h2>Our Items</h2>
+
+            <div class="products">
+
+                <div class="card">
+                    <h3 style="color: orangered;"><strong><b>Kinnow</b></strong></h3>
+                    <img src="Harvest_Kinnow (2).jpg" alt="kinnow photo">
+                    <p>Kinnow, a variety of Mandarin orange widely cultivated in Pakistan</p>
+                </div>
+
+                <div class="card">
+                    <h3>Item 2</h3>
+                    <p>You will add your products here later.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Item 3</h3>
+                    <p>You will add your products here later.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+
+            <h2>Contact Us</h2>
+
+            <p><strong>Business Name:</strong> Sohi Farm</p>
+
+            <p><strong>Phone:</strong> +92 3414182488</p>
+
+            <p><strong>Email:</strong> info@sohifarm.com</p>
+
+            <p><strong>Address:</strong> Pakistan</p>
+
+        </section>
+
+        <footer>
+
+            <p>© 2026 Sohi Farm. All Rights Reserved.</p>
+
+        </footer>
+
+    </body>
+
+    </html>
+</body>
+
+</html>
